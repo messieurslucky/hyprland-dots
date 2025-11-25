@@ -32,3 +32,12 @@ output_path = '~/.local/state/quickshell/user/generated/color.txt'
 [templates.wallpaper]
 input_path = '~/.config/matugen/templates/wallpaper.txt'
 output_path = '~/.local/state/quickshell/user/generated/wallpaper/path.txt'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/discord/midnight-discord.css'
+output_path = '~/.config/vesktop/themes/midnight-discord.css'
