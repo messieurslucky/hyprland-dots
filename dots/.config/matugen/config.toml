@@ -41,3 +41,7 @@ post_hook = 'pywalfox update'
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/discord/midnight-discord.css'
 output_path = '~/.config/vesktop/themes/midnight-discord.css'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
